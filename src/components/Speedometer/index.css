@@ -1,0 +1,83 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.background-container {
+  background-color: #07080c;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.title1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.image1 {
+  height: 400px;
+  width: 800px;
+}
+
+.title2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.para {
+  color: #cbd5e1;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.span-style {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.custom-button {
+  background-color: #0b69ff;
+  color: #94a3b8;
+  font-size: 15px;
+  height: 40px;
+  width: 100px;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.custom-button2 {
+  background-color: transparent;
+  color: #94a3b8;
+  font-size: 15px;
+  height: 40px;
+  width: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #94a3b8;
+  margin: 10px;
+}
